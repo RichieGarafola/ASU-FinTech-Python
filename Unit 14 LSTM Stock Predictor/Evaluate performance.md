@@ -9,7 +9,7 @@
 ---
 
 **Which window size works best for the model?**
-*Accordong  to this model, particularly the one using closing prices, wwindow size of 1 was the best fitting.*
+*Accordong  to this model, particularly the one using closing prices, window size of 1 was the best fitting.*
 
 ---
 

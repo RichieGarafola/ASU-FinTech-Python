@@ -40,10 +40,15 @@ Take a screenshot of the recipient’s address balance and history from your Gan
 ---
 
 ![alt= Account](Images/account.png)
+
 ![alt= Block](Images/block.png)
+
 ![alt= Transaction](Images/transaction.png)
+
 ![alt= Transaction on streamlit](Images/streamlit_transaction.png)
+
 ![alt= Streamlit](Images/streamlit_A.png)
+
 ![alt= Streamlit](Images/streamlit_B.png)
 
 

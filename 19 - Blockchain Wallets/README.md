@@ -118,4 +118,20 @@ Now it's time to put it all together and test the Fintech Finder application wit
 
 ---
 
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+# Appendix    
+
+---
+
+![alt= Account](Images/account.png)
+
+![alt= Block](Images/block.png)
+
+![alt= Transaction](Images/transaction.png)
+
+![alt= Transaction on streamlit](Images/streamlit_transaction.png)
+
+![alt= Streamlit](Images/streamlit_A.png)
+
+![alt= Streamlit](Images/streamlit_B.png)
+
+

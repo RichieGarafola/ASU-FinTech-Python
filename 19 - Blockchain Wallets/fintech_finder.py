@@ -54,6 +54,7 @@ st.sidebar.write(account.address)
 
 #  Call the `get_balance` function pass it your account address and save it as the variable `ether`
 ether = get_balance(w3, account.address)
+st.sidebar.write(ether)
 
 # Write the returned ether balance to the sidebar
 st.sidebar.markdown("## Your Balance of Ether")

@@ -11,11 +11,12 @@ from crypto_wallet import generate_account, get_balance, send_transaction
 # Database of Fintech Finder candidates including their name, digital address, rating and hourly cost per Ether.
 # A single Ether is currently valued at $1,500
 candidate_database = {
-    "Lane": ["Lane", "0xaC8eB8B2ed5C4a0fC41a84Ee4950F417f67029F0", "4.3", .20, "Desktop/ASU-VIRT-FIN-PT-03-2022-U-LOL/19-Blockchain-Wallets/Homework/Starter-Code/19 - Blockchain Wallets/Images/lane.jpeg"],
-    "Ash": ["Ash", "0x2422858F9C4480c2724A309D58Ffd7Ac8bF65396", "5.0", .33, "Desktop/ASU-VIRT-FIN-PT-03-2022-U-LOL/19-Blockchain-Wallets/Homework/Starter-Code/19 - Blockchain Wallets/Images/ash.jpeg"],
-    "Jo": ["Jo", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.7", .19, "Desktop/ASU-VIRT-FIN-PT-03-2022-U-LOL/19-Blockchain-Wallets/Homework/Starter-Code/19 - Blockchain Wallets/Images/jo.jpeg"],
-    "Kendall": ["Kendall", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.1", .16, "Desktop/ASU-VIRT-FIN-PT-03-2022-U-LOL/19-Blockchain-Wallets/Homework/Starter-Code/19 - Blockchain Wallets/Images/kendall.jpeg"]
+    "Lane": ["Lane", "0xaC8eB8B2ed5C4a0fC41a84Ee4950F417f67029F0", "4.3", .20, "./Images/lane.jpeg"],
+    "Ash": ["Ash", "0x2422858F9C4480c2724A309D58Ffd7Ac8bF65396", "5.0", .33, "./Images/ash.jpeg"],
+    "Jo": ["Jo", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.7", .19, "./Images/jo.jpeg"],
+    "Kendall": ["Kendall", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.1", .16, "./Images/kendall.jpeg"]
 }
+
 
 # A list of the FinTech Finder candidates first names
 people = ["Lane", "Ash", "Jo", "Kendall"]

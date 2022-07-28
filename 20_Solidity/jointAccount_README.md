@@ -31,11 +31,9 @@ To automate the creation of joint savings accounts, I am creating Solidity smart
 
 * From the provided starter code, open the Solidity file named joint_savings.sol in the Remix IDE.
 
-* Define a new contract named JointSavings.[
-./images/joint_savings_solidity](https://github.com/RichieGarafola/ASU-FinTech-Python/blob/main/20_Solidity/images/joint_savings_solidity.png)
-
- <img width="321" alt="joint savings solidity" src="[
-./images/joint_savings_solidity](https://github.com/RichieGarafola/ASU-FinTech-Python/blob/main/20_Solidity/images/joint_savings_solidity.png)">
+* Define a new contract named JointSavings:
+* 
+![alt="joint_savings_solidity"](https://github.com/RichieGarafola/ASU-FinTech-Python/blob/main/20_Solidity/images/joint_savings_solidity.png)
 
 * Define the following variables in the new contract:
 

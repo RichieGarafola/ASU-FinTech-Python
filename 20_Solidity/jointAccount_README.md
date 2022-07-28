@@ -8,10 +8,10 @@
 
 
 ## Table of content
-- [Overview of the project](https://github.com/RichieGarafola/20_Solidity#overview-of-the-project) 
-- [Project goals](https://github.com/RichieGarafola/20_Solidity#project-goals)
-- [Project steps](https://github.com/RichieGarafola/20_Solidity#project-steps)
-- [Software version control](https://github.com/RichieGarafola/20_Solidity#software-version-control)
+- [Overview of the project](https://github.com/RichieGarafola/ASU-FinTech-Python/edit/main/20_Solidity/jointAccount_README.md#overview-of-the-project) 
+- [Project goals](https://github.com/RichieGarafola/ASU-FinTech-Python/edit/main/20_Solidity/jointAccount_README.md#project-goals)
+- [Project steps](https://github.com/RichieGarafola/ASU-FinTech-Python/edit/main/20_Solidity/jointAccount_README.md#project-steps)
+- [Software version control](https://github.com/RichieGarafola/ASU-FinTech-Python/edit/main/20_Solidity/jointAccount_README.md#software-version-control)
 
 
 

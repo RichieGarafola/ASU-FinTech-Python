@@ -1,5 +1,5 @@
 
-# Creating Joint Account with Solidity
+# Create a Joint Account with Solidity
 
 📌 Challenge 20
 

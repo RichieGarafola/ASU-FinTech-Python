@@ -277,14 +277,72 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
 
 8. Create a GitHub repository and a `README.md` file that explains the process for buying KaseiCoin.
 
-Make sure that your `README.md` file includes screenshots that illustrate the functionality of your contracts as the earlier instructions detailed.
+---
 
-You can also record your interactions with the executed contract as a short video or an animated GIF. To record a video, you can use the following tools:
+### Deploy the KaseiCoin Crowdsale
 
-* If you’re working on macOS, you can create a screen recording by using the built-in QuickTime player. To learn more about this tool, refer to [Use QuickTime Player](https://support.apple.com/en-us/HT208721#quicktime) in the Apple Support documentation.
+In this section, you’ll deploy the `KaseiCoinTokenCrowdsaleDeployer`, `KaseiCoinTokenCrowdsale`, and `KaseiCoinToken` contracts.
 
-* If you’re working on Windows 10, you can create a screen recording by using the built-in Xbox Game Bar. To learn more about this tool, refer to [Use Xbox Game Bar to capture game clips and screenshots on Windows 10](https://beta.support.xbox.com/help/friends-social-activity/share-socialize/record-game-clips-game-bar-windows-10) in the Microsoft Support documentation.
+Before deploying the contracts, make sure that you’ve launched Ganache and loaded at least three accounts into Remix.
 
-* To create an animated GIF, you can use [Recordit](https://recordit.co/) on either macOS or Windows.
+![alt=""](Images/walkthrough_initialGanache.png)
+![alt=""](Images/walkthrough_initialMetaMask.png)
+
+To deploy the contracts, complete the following steps:
+
+1. In the Remix IDE, navigate to the **Deploy & Run Transactions** pane, and then complete the following steps:
+
+    * Select an address from MetaMask that you’ll use to deploy the contracts.
+
+    * Copy the address to the clipboard.
+
+    * Select the `KaseiCoinTokenCrowdsaleDeployer` contract, and then fill in the values for **Name** and **Symbol**. Paste the address from the clipboard into the **Wallet** box.
+
+    * Click **transact**, and when the MetaMask dialog box opens, confirm the transaction.
+![alt=""](Images/walkthrough_remixDeployKaseiCoinTokenCrowdsaleDeployer.png)
+![alt=""](Images/walkthrough_metaMaskDeployKaseiCoinTokenCrowdsaleDeployer.png)
+
+2. Navigate to the Deployed Contracts section, and then open the box that’s associated with the `KaseiCoinTokenCrowdsaleDeployer` contract. Notice that buttons for `KaseiCoinCrowdsale_address` and `KaseiCoinToken_address` now appear.
+![alt=""](Images/walkthrough_remixDeployedContract.png)
+
+3. Link the contract that’s associated with `KaseiCoinCrowdsale_address` to the `KaseiCoinTokenCrowdsale` contract that you previously created by completing the following steps:
+
+    * Copy the address that’s associated with `KaseiCoinCrowdsale_address`.
+
+    * Scroll up to the Contract box, and then select the compiled `KaseiCoinTokenCrowdsale`.
+
+    * Copy the address into the **At Address** box.
+
+    * Click the **At Address** button.
+![alt=""](Images/walkthrough_remixKaseiCoinCrowdsaleDeployer.png)    
+
+4. Notice the deployed `KaseiCoinTokenCrowdsale` contract in the Deployed Contracts section.
+
+
+### Test the KaseiCoinToken Crowdsale
+
+In this section, you’ll test the `KaseiCoinToken` crowdsale. You’ll assume the role of a participant seeking to buy `KaseiCoinTokens`. To do so, complete the following steps:
+
+1. Purchase `KaseiCoinTokens` from the crowdsale by completing the following steps:
+
+    * Select a new account from MetaMask. Notice the new account address in the Account box in the Remix IDE. Copy this account address to the clipboard.
+    
+![alt=""](Images/walkthrough_newMetaMask.png)      
+
+    * In the Value box, enter a value of wei to determine the number of tokens for this account to purchase.
+
+![alt=""](Images/walkthrough_remixNewAccount.png)   
+
+    * Navigate to the deployed `KaseiCoinTokenCrowdsale` contract, paste the address into the **buyTokens** box, and then click the **buyTokens** button.
+
+![alt=""](Images/walkthrough_remixBuyTokens.png)  
+![alt=""](Images/walkthrough_metaMaskBuyTokens.png)
+
+    * When the MetaMask dialog box opens, click Confirm.
+
+    * Confirm that the number of purchased tokens is correctly reflected in Remix by clicking the **totalSupply** button.
+
+![alt=""](Images/walkthrough_remixWeiRaised.png)  
+![alt=""](Images/walkthrough_metaMaskWeiRaised.png)
 
 ---

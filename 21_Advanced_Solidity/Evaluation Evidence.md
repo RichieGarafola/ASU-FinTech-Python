@@ -12,7 +12,9 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. You’ll launch a 
 
 Download the following files to help you get started:
 
+
 [KaseiCoin.sol](./Starter_Code/KaseiCoin.sol)
+
 
 [KaseiCoinCrowdsale.sol](./Starter_Code/KaseiCoinCrowdsale.com)
 
@@ -48,7 +50,9 @@ In this subsection, you’ll create a smart contract that defines KaseiCoin as a
 
 1. Import the provided `KaseiCoin.sol` starter file into the Remix IDE.
 
+
 ![alt=""](Images/KaseiCoin_imports.png)
+
 
 2. Import the following contracts from the OpenZeppelin library:
 
@@ -58,7 +62,9 @@ In this subsection, you’ll create a smart contract that defines KaseiCoin as a
 
     * `ERC20Mintable`
 
+
 ![alt=""](Images/KaseiCoin_constructor.png)
+
 
 3. Define a contract for the KaseiCoin token, and name it `KaseiCoin`. Have the contract inherit the three contracts that you just imported from OpenZeppelin.
 
@@ -68,7 +74,9 @@ In this subsection, you’ll create a smart contract that defines KaseiCoin as a
 
 6. Compile the contract by using compiler version 0.5.0.
 
+
 ![alt=""](Images/KaseiCoin_compiled.png)
+
 
 7. Check for any errors, and debug them as needed.
 
@@ -80,7 +88,9 @@ In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, 
 
 1. Import the provided `KaseiCoinCrowdsale.sol` starter code into the Remix IDE.
 
+
 ![alt=""](Images/KaseiCoinCrowdsale_imports.png)
+
 
 2. Have this contract inherit the following OpenZeppelin contracts:
 
@@ -88,15 +98,21 @@ In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, 
 
     * `MintedCrowdsale`
 
+
 ![alt=""](Images/KaseiCoinCrowdsaleDeployer_contract.png)
+
 
 
 3. In the `KaisenCoinCrowdsale` constructor, provide parameters for all the features of your crowdsale, such as `rate`, `wallet` (where to deposit the funds that the token raises), and `token`. Configure these parameters as you want for your KaseiCoin token.
 
 
+
 ![alt=""](Images/KaseiCoinCrowdsaleDeployer_consturctor.png)
 
+
+
 4. Compile the contract by using compiler version 0.5.0.
+
 
 ![alt=""](Images/KaseiCoinCrowdsale_compiled.png)
 
@@ -104,6 +120,7 @@ In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, 
 5. Check for any errors, and debug them as needed.
 
 6. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+
 
 ![alt=""](Images/KaseiCoinCrowdsale_compiled.png)
 
@@ -118,11 +135,15 @@ Next, in the `KaseiCoinCrowdsaleDeployer` contract, you’ll add variables to st
 
 2. Create an `address public` variable named `kasei_crowdsale_address`, which will store the `KaseiCoinCrowdsale` address once that contract has been deployed.
 
+
 ![alt=""](Images/KaseiCoinCrowdsaleDeployer_addressPublic.png)
+
 
 3. Add the following parameters to the constructor for the `KaseiCoinCrowdsaleDeployer` contract: `name`, `symbol`, and `wallet`.
 
+
 ![alt=""](Images/name_symbol_wallet.png)
+
 
 4. Inside of the constructor body (that is, between the braces), complete the following steps:
 
@@ -144,13 +165,16 @@ Next, in the `KaseiCoinCrowdsaleDeployer` contract, you’ll add variables to st
 
     * Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
     
+    
 ![alt=""](Images/KaseiCoin_newInstance.png)
+
 
 5. Compile the contract by using compiler version 0.5.0.
 
 6. Check for any errors, and debug them as needed.
 
 7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Git repository.
+
 
 ![alt=""](Images/KaseiCoinCrowdsaleDeployer_compiled.png)
 
@@ -161,18 +185,31 @@ In this subsection, you’ll deploy the crowdsale to a local blockchain. You’l
 > **Important:** Record a short video or take screenshots that illustrate the following steps as evidence of your deployed crowdsale contract.
 
 1. Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
+
+
 ![alt=""](Images/DeployCrowdsale.png)
+
+
+
 ![alt=""](Images/DeployCrowdsaleMetaMask.png)
 
 
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
+
+
 ![alt=""](Images/KaseiCoin_transaction_remix.png)
+
+
+
 ![alt=""](Images/transactions_ganache.png)
 
 
 3. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
 
+
 ![alt=""](Images/totalSupply.png)
+
+
 ![alt=""](Images/blocks_ganache.png)
 
 ### Optional: Extend the Crowdsale Contract by Using OpenZeppelin
@@ -285,7 +322,10 @@ In this section, you’ll deploy the `KaseiCoinTokenCrowdsaleDeployer`, `KaseiCo
 
 Before deploying the contracts, make sure that you’ve launched Ganache and loaded at least three accounts into Remix.
 
+
 ![alt=""](Images/walkthrough_initialGanache.png)
+
+
 ![alt=""](Images/walkthrough_initialMetaMask.png)
 
 To deploy the contracts, complete the following steps:
@@ -299,11 +339,22 @@ To deploy the contracts, complete the following steps:
     * Select the `KaseiCoinTokenCrowdsaleDeployer` contract, and then fill in the values for **Name** and **Symbol**. Paste the address from the clipboard into the **Wallet** box.
 
     * Click **transact**, and when the MetaMask dialog box opens, confirm the transaction.
+
+
+
 ![alt=""](Images/walkthrough_remixDeployKaseiCoinTokenCrowdsaleDeployer.png)
+
+
 ![alt=""](Images/walkthrough_metaMaskDeployKaseiCoinTokenCrowdsaleDeployer.png)
 
+
+
 2. Navigate to the Deployed Contracts section, and then open the box that’s associated with the `KaseiCoinTokenCrowdsaleDeployer` contract. Notice that buttons for `KaseiCoinCrowdsale_address` and `KaseiCoinToken_address` now appear.
+
+
+
 ![alt=""](Images/walkthrough_remixDeployedContract.png)
+
 
 3. Link the contract that’s associated with `KaseiCoinCrowdsale_address` to the `KaseiCoinTokenCrowdsale` contract that you previously created by completing the following steps:
 
@@ -314,7 +365,12 @@ To deploy the contracts, complete the following steps:
     * Copy the address into the **At Address** box.
 
     * Click the **At Address** button.
+
+
+
 ![alt=""](Images/walkthrough_remixKaseiCoinCrowdsaleDeployer.png)    
+
+
 
 4. Notice the deployed `KaseiCoinTokenCrowdsale` contract in the Deployed Contracts section.
 
@@ -327,22 +383,36 @@ In this section, you’ll test the `KaseiCoinToken` crowdsale. You’ll assume t
 
     * Select a new account from MetaMask. Notice the new account address in the Account box in the Remix IDE. Copy this account address to the clipboard.
     
+    
 ![alt=""](Images/walkthrough_newMetaMask.png)      
+
 
     * In the Value box, enter a value of wei to determine the number of tokens for this account to purchase.
 
+
 ![alt=""](Images/walkthrough_remixNewAccount.png)   
+
 
     * Navigate to the deployed `KaseiCoinTokenCrowdsale` contract, paste the address into the **buyTokens** box, and then click the **buyTokens** button.
 
+
 ![alt=""](Images/walkthrough_remixBuyTokens.png)  
+
+
+
 ![alt=""](Images/walkthrough_metaMaskBuyTokens.png)
+
+
 
     * When the MetaMask dialog box opens, click Confirm.
 
     * Confirm that the number of purchased tokens is correctly reflected in Remix by clicking the **totalSupply** button.
 
+
 ![alt=""](Images/walkthrough_remixWeiRaised.png)  
+
+
+
 ![alt=""](Images/walkthrough_metaMaskWeiRaised.png)
 
 ---

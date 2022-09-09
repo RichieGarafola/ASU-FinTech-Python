@@ -137,15 +137,3 @@ To do so, complete the following steps:
 3. Produce a sales forecast for the finance group. Give them a number for the expected total sales in the next quarter. Include the best- and worst-case scenarios to help them make better plans.
 
 ---
-
-## Submission
-
-- Create Jupyter notebooks for the analysis, and host them on GitHub.
-
-- Include a Markdown file that summarizes your models and findings, and include this report in your GitHub repo.
-
-- Submit the link to your GitHub project to Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -110,14 +110,6 @@ Now it's time to put it all together and test the Fintech Finder application wit
 
 ---
 
-## Submission
-
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
-
----
-
 # Appendix    
 
 ---

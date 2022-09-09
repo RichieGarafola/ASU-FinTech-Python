@@ -99,13 +99,3 @@ To interact with your deployed smart contract, complete the following steps:
 
 ---
 
-### Submission
-
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-

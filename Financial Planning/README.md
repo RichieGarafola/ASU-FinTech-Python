@@ -28,7 +28,7 @@ The second tool will be a retirement planning tool that will use the Alpaca API 
 
 ### Resources
 
-This homework will utilize two APIs:
+This project will utilize two APIs:
 
 * The **Alpaca Markets API** will be used to pull historical stocks and bonds information.  
     
@@ -150,14 +150,6 @@ Try adjusting the portfolio to either include more risk (a higher stock than bon
 * Remember to add the `.env` files to the `.gitignore` configuration to avoid exposing your API keys in your GitHub repository.
 
 * A `.gitignore` file contains file names and extensions of files that you don't want pushed to your repository. For more information on how a `gitignore` works, you can read the documentation [here](https://docs.github.com/en/github/using-git/ignoring-files).
-
-### Submission
-
-1. Use the starter Jupyter Notebook for your Personal Finance Planner.
-
-2. Submit your notebook to a new GitHub repository and create a `README.md` file.
-
-3. Submit the link to your GitHub project to Bootcampspot for grading.
 
 
 
